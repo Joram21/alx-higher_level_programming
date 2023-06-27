@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-# Module containing the Square class
+
+"""Module containing the Square class"""
 
 
 class Square:
@@ -33,7 +34,7 @@ class Square:
         return self.__size ** 2
 
     def __eq__(self, other):
-        """Check if area of the instance is the same as the area of 'other'
+        """Check if area of the instance is the same as the area of 'other'.
         Returns:
             bool: The return Value. True if self.area == other.area. False
                 otherwise, or 'other' is not of type Square.
@@ -62,7 +63,7 @@ class Square:
             return False
 
     def __gt__(self, other):
-        """Check if area of the instance is greater than the area of 'other'
+        """Check if area of the instance is greater than the area of 'other'.
         Returns:
             bool: The return Value. True if self.area > other.area. False
                 otherwise, or 'other' is not of type Square.
